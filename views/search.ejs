@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="searchcss.css">
+</head>
+
+<body>
+    <div id="mainn">
+        <%- include('partials/nav') %>
+            <h1>Game shark🦈</h1>
+            ♦
+            <p id="start_m">Looking for the cheapest deals in PC games? 👇</p>
+
+            <div><label for="game">Game Name</label></div>
+            <input id="gamename" type="text" name="game">
+            <button class="ripple" id="search" type="submit">Submit</button>
+            <p id="searchcontain">Showing search results for: <span id="searchitem"></span></p>
+            <div id="cardContainer"></div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="searchjs.js"></script>
+</body>
+
+</html>

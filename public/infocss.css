@@ -1,0 +1,59 @@
+*{
+    text-align: center;
+}
+* {
+    font-family: Poppins, sans-serif;
+    color: #FDCB9E;
+}
+html{
+    text-align: center;
+    background: #1b262c;
+    color: wheat;
+}
+
+.deal-card {
+    background-color: #3B2E5A;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.deal-price {
+    font-size: 18px;
+}
+
+.deal-price span {
+    font-weight: bold;
+}
+
+.deal-btn {
+    background-color: #251f44;
+    color: #e8505b;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.deal-btn:hover{
+    background: #6a2c70;
+}
+
+#card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+nav{
+    display: block;
+    padding: 1rem;
+}
+#nav a {
+        font-weight: 700;
+        color: #2977ab;
+        padding: 0.667rem;
+        text-decoration: none;
+}

@@ -1,0 +1,67 @@
+* {
+    font-family: Poppins, sans-serif;
+}
+body {
+    font-size: 1.5em;
+  }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('assets/bgimg2.jpg');
+    background-size:cover;
+    opacity: 0.5;
+    z-index: -1; 
+    filter: blur(3px);
+}
+html{
+    text-align: center;
+    background: #1b262c;
+    
+    color: azure;
+}
+nav{
+    display: block;
+    padding: 1rem;
+}
+#nav a {
+        font-weight: 700;
+        color: #2977ab;
+        padding: 0.667rem;
+        text-decoration: none;
+}
+
+#nav #abouta{
+    color:#00B7C2;
+}
+
+#nav #icon1,#icon2{
+    display: none;
+}
+
+#team{
+    font-size:1.5em;
+}
+
+#what{
+    width:60%
+}
+#tools{
+    list-style-type: none;
+}
+
+h3{
+    color: wheat;
+}

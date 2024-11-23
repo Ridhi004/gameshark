@@ -1,0 +1,100 @@
+* {
+    font-family: Poppins, sans-serif;
+}
+nav{
+    display: block;
+    padding: 1rem;
+        font-size: 1.5em;
+      
+}
+#nav a {
+        font-weight: 700;
+        color: #2977ab;
+        padding: 0.667rem;
+        text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('assets/storeimage2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+body {
+    background-color: #1B262C;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+        color: #fdcb9e;
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+.red {
+    color: #fdcb9e;
+}
+
+.pizza {
+    color: #ddd; 
+   text-decoration: none;
+}
+
+.store-list li {
+   display: inline-block;
+   margin-right: 10px; 
+}
+h2 {
+    display: block;
+    font-size: 1.2rem;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+    transform: translateY(-10px);
+}
+
+#nav #storea{
+    color:#00B7C2;
+}
+
+#nav #icon1,#icon3{
+    display: none;
+}
+
+li{
+    padding-bottom: 35px;
+}
+
+.store-list{
+    padding-top: 50px;
+}
+
+.legend{
+    font-size: 1.2em;
+}
